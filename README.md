@@ -21,8 +21,9 @@ Example Output
 ====================
 
 In your browser console:
-```
-> CollectionWeightMonitor.get()
+
+`> CollectionWeightMonitor.get()`
+
 | (index) | count |
 | --- | --- |
 | ProcessVersionSets | 135 |
@@ -33,10 +34,11 @@ In your browser console:
 | ACLResources | 0 |
 | Analyses | 0 |
 | AnalysesAccessLogs | 0 |
-```
 
-```
-> CollectionWeightMonitor.monitor()
+
+
+`> CollectionWeightMonitor.monitor()`
+
 | (index) | count | previousCount | delta |
 | --- | --- | --- | --- |
 | ProcessVersionSets | 135 | 0 | 135 |
@@ -59,8 +61,8 @@ In your browser console:
 | ACLResources | 0 | 0 | 0 |
 | Analyses | 0 | 0 | 0 |
 | AnalysesAccessLogs | 0 | 0 | 0 |
-> CollectionWeightMonitor.stopMonitor()
-```
+
+`> CollectionWeightMonitor.stopMonitor()`
 
 License
 ====================
